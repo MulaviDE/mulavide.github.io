@@ -102,15 +102,15 @@
     }
 
     .phone-icon {
-      background-image: url('images/phone.png');
+      background-image: url('phone.png');
     }
 
     .whatsapp-icon {
-      background-image: url('images/whatsapp.png');
+      background-image: url('whatsapp.png');
     }
 
     .mail-icon {
-      background-image: url('images/mail.png');
+      background-image: url('mail.png');
     }
 
     @font-face {
@@ -121,14 +121,14 @@
 </head>
 <body>
   <header>
-    <img id="logo" src="images/mulavilogo.jpg" alt="Mulavi Logo" onclick="window.location.href = 'index';">
+    <img id="logo" src="mulavilogo.jpg" alt="Mulavi Logo" onclick="window.location.href = 'index';">
     <span class="heading-text">KONTAKT</span>
-    <img id="loginjpg" src="images/login.jpg" alt="Login" onclick="window.location.href = 'nutzer.php';">
+    <img id="loginjpg" src="login.jpg" alt="Login" onclick="window.location.href = 'nutzer.php';">
   </header>
   <div class="image-container">
     <div class="image-box">
       <a>
-        <img src="images/1.jpg" alt="Bild 1">
+        <img src="1.jpg" alt="Bild 1">
       </a>
       <div class="button-container">
         <a href="tel:017622616544" class="contact-button phone-icon"></a>
