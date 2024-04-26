@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testseite</title>
+  <link rel="icon" type="image/x-icon" href="mulavifavicon.ico">
+  <style>
+    body {
+      font-family: 'ab', Arial, sans-serif; /* Verwende 'ab' als Schriftart */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #102131;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      align-items: center; /* Vertikal zentrieren */
+      justify-content: space-between; /* Abstand zwischen den Elementen */
+    }
+    #logo {
+      width: 80px;
+      height: auto;
+      max-width: 10%;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #loginjpg {
+      width: 80px;
+      height: auto;
+      max-width: 10%;
+      margin-right: 20px;
+      cursor: pointer; /* Füge den Cursor hinzu, um anzuzeigen, dass es anklickbar ist */
+    }
+    .heading-text {
+      font-size: 24px;
+      margin-left: auto; /* Text nach rechts verschieben */
+      margin-right: auto; /* Text nach links verschieben */
+    }
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Zentriert die Elemente horizontal */
+      margin-top: 20px;
+    }
+    .image-box {
+      text-align: center;
+      position: relative;
+      width: 200px; /* Breite jedes Bildes */
+      margin: 0 10px 40px; /* 40px unten, 20px links und rechts */
+      max-width: 40%;
+    }
+
+    .image-box img {
+      width: 100%; /* Füllt die Breite des Containers */
+      height: auto; /* Behält das Seitenverhältnis bei */
+      border-radius: 5px;
+    }
+
+    @font-face {
+      font-family: 'ab';
+      src: url('fonts/ab.ttf') format('truetype'); /* Pfade zur Schriftart */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img id="logo" src="images/mulavilogo.jpg" alt="Mulavi Logo">
+    <span class="heading-text">KONTAKTSEITE</span>
+    <img id="loginjpg" src="images/login.jpg" alt="Login" onclick="window.location.href = 'nutzer.php';">
+  </header>
+  <div class="image-container">
+    <div class="image-box">
+      <a href="marcel">
+        <img src="images/1.jpg" alt="Bild 1">
+      </a>
+    </div>
+    <div class="image-box">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 2">
+      </a>
+    </div>
+    <div class="image-box">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 3">
+      </a>
+    </div>
+    <div class="image-box">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 4">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
