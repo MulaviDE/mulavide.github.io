@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vielen Dank!</title>
+  <style>
+    body {
+      font-family: 'e', Arial, sans-serif; /* Verwende 'ab' als Schriftart */
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 500px;
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      position: relative;
+    }
+    .thank-you-message {
+      font-size: 24px;
+      color: #012744;
+      margin-bottom: 30px;
+    }
+    #back-to-home {
+      background-color: #012744;
+      color: #fff;
+      border: 3px solid #00182A;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    #back-to-home:hover {
+      background-color: #00FFA1;
+      border-color: #00A768;
+    }
+    #logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+      border-radius: 10px;
+    }
+    @font-face {
+        font-family: 'e';
+        src: url('e.ttf') format('truetype'); /* Pfade zur Schriftart */
+    }
+  </style>
+</head>
+<body>
+  <img id="logo" src="mulaviweiß.jpg" alt="Mulavi Logo">
+  <div class="container">
+    <div class="thank-you-message">
+      Vielen Dank für Ihre Kontaktaufnahme! <br>Ich werde mich so schnell wie möglich <br>bei Ihnen melden.
+    </div>
+    <a id="back-to-home" href="https://www.mulavi.de">Zurück zur Startseite</a>
+  </div>
+</body>
+</html>
